@@ -1,0 +1,117 @@
+// Task no 1
+// var data=123456;
+// let temp=data
+// let index=parseInt(prompt("Enter the index value : "));
+// for(let i=0;i<index;i++)
+// {
+//     value=temp%10;
+//     temp=temp/10;
+
+// }
+// console.log("last digit is : " + parseInt(value));
+
+// // Task no 2
+// let value="12345";
+// let array=[...value]
+// console.log(array);
+// function SumOfArray(sum,num)
+// {
+//     return Number(sum)+ Number(num);
+// }
+// let sumarray=array.reduce(SumOfArray);
+// console.log("Sum of string value is : " + sumarray);
+
+// // Task no 3
+// let value="12345";
+// let array=[...value]
+// console.log(array);
+// function CalculateEven(num)
+// {
+//     if(num%2==0)
+//     {
+//         return num;
+//     }
+// }
+// let evenNumber=array.filter(CalculateEven);
+// console.log("Even numbers are " + evenNumber);
+// function SumOfArray(sum,num)
+// {
+//     return Number(sum)+ Number(num);
+// }
+// let sumarray=evenNumber.reduce(SumOfArray);
+// console.log("Sum of even numbers are : " + sumarray);
+
+// Task no 4
+// let num=parseInt(prompt("Enter value to take squrae and cube :"));
+// // function CalculateSquare(a)
+// {
+//     return a**2;
+// }
+// function CalculateCube(a)
+// {
+//     return a**3;
+// }
+// let squared=CalculateSquare(num);
+// let cube=CalculateCube(num);
+// console.log("Square of a number is : "+ squared);
+// console.log("Cube of a number is : "+ cube);
+
+// Task no 05
+// var chr="";
+// let str=prompt("Enter the string");
+// let num=prompt("Enter the Number");
+// str=str.toUpperCase();
+// console.log(str);
+// for(var i=0;i<str.length;i++)
+// {
+//     chr=str.charAt(i);
+//     if(chr=="A" || chr=="E" || chr=="I" || chr=="O" || chr=="U" )
+//     {
+//         break;
+//     }
+// }
+// if(i<str.length)
+// {
+//     console.log("Position of left most vowel is : " + (i+1));
+// }
+// else
+// {
+//     console.log("No vowel found at left position !");
+// }
+// let reversedNum=num.toString().split('').reverse().join('');
+// console.log("Reversed Number is : " + reversedNum);
+
+// Task no 06
+// var randomNum=Math.floor(Math.random()*10);
+// console.log(randomNum);
+// let guessNum=prompt("Enter your Guess Number : ");
+// if(guessNum==randomNum)
+// {
+//     console.log("YOU WIN");
+// }
+// else
+// {
+//     console.log("NOT MATCHED");
+// }
+
+// Task no 07
+// let array=[11,2,3,1];
+// let lastPos=array.length-1;
+// if(array[0]==10)
+// {
+//     console.log("Yes 10 appears at 1st Position : ");
+// }
+// else if(array[lastPos]==10)
+// {
+//     console.log("Yes 10 appears at last Position : ");
+// }
+// else
+// {
+//     console.log("10 is not present in array ! ");
+
+// }
+
+// // Task no 08
+// let str=prompt("Enter the string to print in alhabetical order : ");
+// str=str.split('').sort().join('');
+// console.log("String in alphabetical order is : " + str);
